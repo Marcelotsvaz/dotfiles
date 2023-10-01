@@ -3,41 +3,45 @@
 #-------------------------------------------------------------------------------
 set -x XDG_CONFIG_HOME ~/.config
 set -x XDG_DATA_HOME ~/.local/share
+set -x XDG_STATE_HOME ~/.state
 set -x XDG_CACHE_HOME ~/.cache
 
 # Config.
-set -x KDEHOME "$XDG_CONFIG_HOME/kde4"
-set -x GTK2_RC_FILES "$XDG_CONFIG_HOME/gtkrc-2.0"
-set -x PYTHONSTARTUP "$XDG_CONFIG_HOME/python.py"
-set -x DOCKER_CONFIG "$XDG_CONFIG_HOME/docker"
-set -x MINIKUBE_HOME "$XDG_CONFIG_HOME/minikube"
-set -x AWS_CONFIG_FILE "$XDG_CONFIG_HOME/aws/config"
+set -x AWS_CONFIG_FILE $XDG_CONFIG_HOME/aws/config
+set -x DOCKER_CONFIG $XDG_CONFIG_HOME/docker
+set -x GTK2_RC_FILES $XDG_CONFIG_HOME/gtkrc-2.0			# Doesn't work.
+set -x KDEHOME $XDG_CONFIG_HOME/kde4
+set -x MINIKUBE_HOME $XDG_CONFIG_HOME/minikube
+set -x PYTHONSTARTUP $XDG_CONFIG_HOME/python.py			# Python REPL config. Used to move history.
 
 # Data.
-set -x VSCODE_EXTENSIONS "$XDG_DATA_HOME/code-oss"
-set -x GOPATH "$XDG_DATA_HOME/go"
-set -x PLATFORMIO_CORE_DIR "$XDG_DATA_HOME/platformio"
+set -x GOPATH $XDG_DATA_HOME/go
+set -x PLATFORMIO_CORE_DIR $XDG_DATA_HOME/platformio
+set -x VSCODE_EXTENSIONS $XDG_DATA_HOME/code-oss
+
+# State.
+set -x HISTFILE $XDG_CACHE_HOME/bash_history
+set -x LESSHISTFILE $XDG_CACHE_HOME/lesshst
 
 # Cache.
-set -x LESSHISTFILE "$XDG_CACHE_HOME/lesshst"
-set -x HISTFILE "$XDG_CACHE_HOME/bash_history"
-set -x NPM_CONFIG_CACHE "$XDG_CACHE_HOME/npm"
-set -x PLATFORMIO_CACHE_DIR "$XDG_CACHE_HOME/platformio"
+set -x NPM_CONFIG_CACHE $XDG_CACHE_HOME/npm
+set -x PLATFORMIO_CACHE_DIR $XDG_CACHE_HOME/platformio
+set -x PYTHONPYCACHEPREFIX $XDG_CACHE_HOME/python		# Python .pyc files.
 
 
 
 # 
 # Environment.
 #-------------------------------------------------------------------------------
-fish_add_path --path "$GOPATH/bin"
-set -x SSH_AUTH_SOCK "$XDG_RUNTIME_DIR/ssh-agent.socket"	# SSH Key Agent.
 set -x GTK_USE_PORTAL 1	# Make GTK applications use xdg-desktop-portal for native KDE dialogs.
 set -x MOZ_ENABLE_WAYLAND 1
-set -x PYTHONPYCACHEPREFIX "$XDG_CACHE_HOME/python"
-set -x AUR_USERNAME Marcelotsvaz
+set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.socket	# SSH Key Agent.
+
+# Path.
+fish_add_path --path $GOPATH/bin
 
 # VSCode shell integration.
-string match -q $TERM_PROGRAM vscode
+string match --quiet $TERM_PROGRAM vscode
 and . /usr/lib/code/out/vs/workbench/contrib/terminal/browser/media/fish_xdg_data/fish/vendor_conf.d/shellIntegration.fish
 
 
@@ -49,22 +53,22 @@ if status is-interactive
 	# Configuration.
 	set -x EDITOR nano
 	set -x VISUAL code --wait
-	set -x LESS
-		set -a LESS --chop-long-lines
-		set -a LESS --window=-2
-		set -a LESS --shift=4
-		set -a LESS --tabs=8
-		set -a LESS --ignore-case
-		set -a LESS --LONG-PROMPT
-		set -a LESS --use-color
-		set -a LESS --status-column
-		set -a LESS --RAW-CONTROL-CHARS
-		set -a LESS --quit-if-one-screen
-		set -a LESS --HILITE-UNREAD
+	set -x LESS					\
+		--chop-long-lines		\
+		--window=-2				\
+		--shift=4				\
+		--tabs=8				\
+		--ignore-case			\
+		--LONG-PROMPT			\
+		--use-color				\
+		--status-column			\
+		--RAW-CONTROL-CHARS		\
+		--quit-if-one-screen	\
+		--HILITE-UNREAD
 	set -x SYSTEMD_LESS $LESS
 	
 	set fish_greeting
-	set VIRTUAL_ENV_DISABLE_PROMPT 1
+	set VIRTUAL_ENV_DISABLE_PROMPT 1	# Stop venv activation script from messing up the prompt.
 	tabs -4
 	
 	# Aliases.
