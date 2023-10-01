@@ -1,6 +1,10 @@
 dest: /home/marcelotsvaz/
 
 links:
+  - source: .config/
+    links:
+      - pythonrc.py
+  
   - source: .config/Code/User/profiles/6c4c4037/
     links:
       - snippets/

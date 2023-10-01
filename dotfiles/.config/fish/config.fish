@@ -12,7 +12,7 @@ set -x DOCKER_CONFIG $XDG_CONFIG_HOME/docker
 set -x GTK2_RC_FILES $XDG_CONFIG_HOME/gtkrc-2.0			# Doesn't work.
 set -x KDEHOME $XDG_CONFIG_HOME/kde4
 set -x MINIKUBE_HOME $XDG_CONFIG_HOME/minikube
-set -x PYTHONSTARTUP $XDG_CONFIG_HOME/python.py			# Python REPL config. Used to move history.
+set -x PYTHONSTARTUP $XDG_CONFIG_HOME/pythonrc.py			# Python REPL config. Used to move history.
 
 # Data.
 set -x GOPATH $XDG_DATA_HOME/go
