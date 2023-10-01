@@ -1,0 +1,263 @@
+{
+	// 
+	// Main
+	//--------------------------------------------------------------------------
+	// "workbench.colorTheme": "Default Dark+",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.list.openMode": "doubleClick",
+	"workbench.editor.openPositioning": "last",
+	"workbench.settings.editor": "json",
+	"workbench.tree.indent": 16,
+	"workbench.tree.renderIndentGuides": "always",
+	"explorer.autoReveal": false,
+	"explorer.compactFolders": false,
+	
+	"vsicons.associations.files": [
+		{
+			"icon": "gitlab",
+			"extensions": [ ".gitlab-ci.yaml", ".gitlab-ci.yml" ],
+			"format": "svg"
+		},
+		{
+			"icon": "docker",
+			"extensions": [ "compose.yaml" ],
+			"format": "svg",
+		},
+	],
+	
+	
+	
+	// 
+	// Editor
+	//--------------------------------------------------------------------------
+	"editor.fontFamily": "CaskaydiaCove Nerd Font",
+	"editor.fontLigatures": true,
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.wordBasedSuggestions": false,
+	"editor.selectionClipboard": false,
+	"editor.linkedEditing": true,
+	"editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+	
+	// Whitespace.
+	"editor.insertSpaces": false,
+	"editor.trimAutoWhitespace": false,
+	"editor.renderWhitespace": "selection",
+	"code-eol.highlightNonDefault": true,
+	"code-eol.highlightExtraWhitespace": false,
+	
+	// Visual aid.
+	"editor.minimap.showSlider": "always",
+	"editor.rulers": [ 100 ],
+	"editor.guides.bracketPairs": true,
+	"editor.guides.bracketPairsHorizontal": true,
+	"editor.stickyScroll.enabled": true,
+	
+	"files.associations":
+	{
+		"*.env": "shellscript",
+		"*.env.tpl": "shellscript",
+		"**/jinja2/**/*.html": "jinja-html",
+		"**/jinja2/**/*.xml": "jinja-xml",
+		"**/jinja2/**/*.txt": "jinja",
+		"**/translations/**/*.ts": "xml",
+	},
+	
+	"emmet.includeLanguages": { "jinja-html": "html" },
+	
+	"[jinja-html]":
+	{
+		"editor.language.brackets":
+		[
+			[ "(", ")" ],
+			[ "[", "]" ],
+			[ "{", "}" ],
+			[ "{{", "}}" ],
+			[ "{%", "%}" ],
+		],
+	},
+	
+	"[shellscript][fish]":
+	{
+		"editor.language.brackets":
+		[
+			[ "(", ")" ],
+			[ "[", "]" ],
+			[ "{", "}" ],
+			[ "$(", ")" ],
+			[ "${", "}" ],
+			[ "[[", "]]" ],
+		],
+	},
+	
+	"[yaml][dockercompose]":
+	{
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4,
+		// "editor.detectIndentation": false,
+		// "editor.guides.indentation": false,
+		// "editor.autoIndent": "advanced",
+	},
+	
+	// Colors.
+	// #FFD700 #DA70D6 #179FFF
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "punctuation.definition.variable.shell",	// ${<this>}
+				"settings": { "foreground": "#FFD700" },
+			},
+			
+			{
+				"scope": "punctuation.section.array.shell",	// ${foo[<this>]}
+				"settings": { "foreground": "#DA70D6" },
+			},
+			
+			{
+				"scope": "meta.parameter-expansion",	// ${foo[this]}
+				"settings": { "foreground": "#B5CEA8" },
+			},
+			
+			{
+				"scope": "punctuation.definition.evaluation.parens",	// $(<this>)
+				"settings": { "foreground": "#179FFF" },
+			},
+		],
+	},
+	
+	
+	
+	// 
+	// Terminal
+	//--------------------------------------------------------------------------
+	"terminal.integrated.cursorStyle": "underline",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.scrollback": 10000,
+	"terminal.integrated.minimumContrastRatio": 1,
+	"terminal.integrated.drawBoldTextInBrightColors": false,
+	
+	"terminal.integrated.tabs.title": "${sequence}",
+	"terminal.integrated.tabs.description": "${task}",
+	"terminal.integrated.defaultProfile.linux": "fish",
+	
+	"terminal.integrated.profiles.linux":
+	{
+		"tmux": null,
+		"JavaScript Debug Terminal": null,
+	},
+	
+	
+	
+	// 
+	// Files
+	//--------------------------------------------------------------------------
+	"files.eol": "\n",
+	"files.exclude":
+	{
+		"**/.git": true,
+		"**/.hg": true,
+	},
+	"git.mergeEditor": true,
+	"git.inputValidationSubjectLength": 75,
+	
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.codeLens.enabled": false,
+	"gitlens.currentLine.enabled": false,
+	"gitlens.graph.layout": "editor",
+	"gitlens.graph.minimap.enabled": false,
+	"gitlens.graph.scrollMarkers.additionalTypes": [
+		"remoteBranches",
+		"localBranches",
+		"stashes",
+		"tags"
+	],
+	
+	
+	
+	// 
+	// Docker and Kubernetes
+	//--------------------------------------------------------------------------
+	"docker.containers.label": "ContainerName",
+	"docker.containers.description": [ "Status" ],
+	"docker.images.label": "RepositoryNameAndTag",
+	"docker.images.sortBy": "Label",
+	"docker.images.groupBy": "None",
+	"redhat.telemetry.enabled": false,
+	
+	
+	
+	// 
+	// Python
+	//--------------------------------------------------------------------------
+	"python.languageServer": "None",
+	"python.interpreter.infoVisibility": "always",
+	
+	
+	
+	// 
+	// LESS
+	//--------------------------------------------------------------------------
+	"less.lint.emptyRules": "ignore",
+	
+	
+	
+	// 
+	// Misc
+	//--------------------------------------------------------------------------
+	"testing.openTesting": "neverOpen",
+	"yaml.format.singleQuote": true,
+	"cSpell.userWords": [
+		"amet",
+		"argparse",
+		"argval",
+		"boto",
+		"buildclass",
+		"Caskaydia",
+		"classdef",
+		"devcontainer",
+		"dockercompose",
+		"docstrings",
+		"epytext",
+		"functiondef",
+		"jsons",
+		"marcelotsvaz",
+		"numpy",
+		"openpyxl",
+		"pylint",
+		"pyproject",
+		"Pyright",
+		"restruct",
+		"Sartori",
+		"scrollback",
+		"Struct",
+		"subclasscheck",
+		"Tellier",
+		"testutils",
+		"venv",
+		"vsicons",
+		"yfinance"
+	],
+	"cSpell.enableFiletypes": [
+		"shellscript"
+	],
+	
+	
+	
+	// 
+	// Don't show again
+	//--------------------------------------------------------------------------
+	
+	
+	
+	// 
+	// Experiments
+	//--------------------------------------------------------------------------
+	"gitlab.aiAssistedCodeSuggestions.enabled": true,
+	"diffEditor.experimental.showMoves": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"gitlens.ai.experimental.openai.model": "gpt-4",
+	"accessibility.dimUnfocused.enabled": "true",
+	"python.experiments.optInto": [
+		"pythonTerminalEnvVarActivation",
+		"pythonTestAdapter",
+	],
+}

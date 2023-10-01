@@ -1,0 +1,689 @@
+[
+	{
+		"identifier": {
+			"id": "coolbear.systemd-unit-file",
+			"uuid": "fe20f03a-2abf-470a-ab23-d671ec38ce42"
+		},
+		"version": "1.0.6",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/coolbear.systemd-unit-file-1.0.6",
+			"scheme": "file"
+		},
+		"relativeLocation": "coolbear.systemd-unit-file-1.0.6",
+		"metadata": {
+			"id": "fe20f03a-2abf-470a-ab23-d671ec38ce42",
+			"publisherId": "73aa15f5-fc31-45ec-ab42-e339b1dee6b6",
+			"publisherDisplayName": "coolbear",
+			"targetPlatform": "undefined",
+			"updated": false,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1689206897994,
+			"pinned": true
+		}
+	},
+	{
+		"identifier": {
+			"id": "samuelcolvin.jinjahtml",
+			"uuid": "8b477a76-974c-403d-a454-58028c1709d1"
+		},
+		"version": "0.20.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/samuelcolvin.jinjahtml-0.20.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "samuelcolvin.jinjahtml-0.20.0",
+		"metadata": {
+			"id": "8b477a76-974c-403d-a454-58028c1709d1",
+			"publisherId": "d7c2b9b7-2569-4058-af25-ddbb0905ca89",
+			"publisherDisplayName": "Samuel Colvin",
+			"targetPlatform": "undefined",
+			"updated": false,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1689206897984,
+			"pinned": true
+		}
+	},
+	{
+		"identifier": {
+			"id": "ms-kubernetes-tools.vscode-kubernetes-tools",
+			"uuid": "4837e4f3-1b01-4732-b1a6-daa57ef64cab"
+		},
+		"version": "1.3.13",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.13",
+			"scheme": "file"
+		},
+		"relativeLocation": "ms-kubernetes-tools.vscode-kubernetes-tools-1.3.13",
+		"metadata": {
+			"id": "4837e4f3-1b01-4732-b1a6-daa57ef64cab",
+			"publisherId": "d5b943eb-b968-4c2d-b241-a117ce9c3961",
+			"publisherDisplayName": "Microsoft",
+			"targetPlatform": "undefined",
+			"updated": false,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1689206897534,
+			"pinned": true
+		}
+	},
+	{
+		"identifier": {
+			"id": "mrmlnc.vscode-json5",
+			"uuid": "d6c6d30c-10a6-42fe-85ec-41dcb313349d"
+		},
+		"version": "1.0.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/mrmlnc.vscode-json5-1.0.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "mrmlnc.vscode-json5-1.0.0",
+		"metadata": {
+			"id": "d6c6d30c-10a6-42fe-85ec-41dcb313349d",
+			"publisherId": "c958976e-9702-4f1a-8bdf-26b7bc012d65",
+			"publisherDisplayName": "mrmlnc",
+			"targetPlatform": "undefined",
+			"updated": false,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1689206897897,
+			"pinned": true
+		}
+	},
+	{
+		"identifier": {
+			"id": "4ops.packer",
+			"uuid": "845ae667-6113-4243-b0d5-4610762b2b33"
+		},
+		"version": "0.3.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/4ops.packer-0.3.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "4ops.packer-0.3.0",
+		"metadata": {
+			"id": "845ae667-6113-4243-b0d5-4610762b2b33",
+			"publisherId": "db4dabe0-34d0-481a-884f-371ffc5cb27f",
+			"publisherDisplayName": "Anton Kulikov",
+			"targetPlatform": "undefined",
+			"updated": false,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1689206897948,
+			"pinned": true
+		}
+	},
+	{
+		"identifier": {
+			"id": "mrcrowl.hg",
+			"uuid": "3934094f-7995-4bb1-80bd-51c642531ff8"
+		},
+		"version": "1.9.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/mrcrowl.hg-1.9.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "mrcrowl.hg-1.9.0",
+		"metadata": {
+			"id": "3934094f-7995-4bb1-80bd-51c642531ff8",
+			"publisherId": "8e4d6bbc-0366-441a-8877-6ba4fd16412c",
+			"publisherDisplayName": "mrcrowl",
+			"targetPlatform": "undefined",
+			"updated": false,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1689206897919,
+			"pinned": true
+		}
+	},
+	{
+		"identifier": {
+			"id": "britesnow.vscode-toggle-quotes",
+			"uuid": "8d088af2-ecd1-4b8f-93e9-322125c47b3c"
+		},
+		"version": "0.3.6",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/britesnow.vscode-toggle-quotes-0.3.6",
+			"scheme": "file"
+		},
+		"relativeLocation": "britesnow.vscode-toggle-quotes-0.3.6",
+		"metadata": {
+			"id": "8d088af2-ecd1-4b8f-93e9-322125c47b3c",
+			"publisherId": "4f0b999b-00a3-4e77-b16b-57e094b1ca59",
+			"publisherDisplayName": "BriteSnow",
+			"targetPlatform": "undefined",
+			"updated": false,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1690464018073,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "tamasfe.even-better-toml",
+			"uuid": "b2215d5f-675e-4a2b-b6ac-1ca737518b78"
+		},
+		"version": "0.19.2",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/tamasfe.even-better-toml-0.19.2",
+			"scheme": "file"
+		},
+		"relativeLocation": "tamasfe.even-better-toml-0.19.2",
+		"metadata": {
+			"id": "b2215d5f-675e-4a2b-b6ac-1ca737518b78",
+			"publisherId": "78c2102e-13a2-49ea-ac79-8d1bbacbbf0e",
+			"publisherDisplayName": "tamasfe",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1690569207108,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "golang.go",
+			"uuid": "d6f6cfea-4b6f-41f4-b571-6ad2ab7918da"
+		},
+		"version": "0.39.1",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/golang.go-0.39.1",
+			"scheme": "file"
+		},
+		"relativeLocation": "golang.go-0.39.1",
+		"metadata": {
+			"id": "d6f6cfea-4b6f-41f4-b571-6ad2ab7918da",
+			"publisherId": "dbf6ae0a-da75-4167-ac8b-75b4512f2153",
+			"publisherDisplayName": "Go Team at Google",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1690569210404,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "ms-vscode.hexeditor",
+			"uuid": "cc7d2112-5178-4472-8e0e-25dced95e7f0"
+		},
+		"version": "1.9.12",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/ms-vscode.hexeditor-1.9.12",
+			"scheme": "file"
+		},
+		"relativeLocation": "ms-vscode.hexeditor-1.9.12",
+		"metadata": {
+			"id": "cc7d2112-5178-4472-8e0e-25dced95e7f0",
+			"publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+			"publisherDisplayName": "Microsoft",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1690569211277,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "medo64.render-crlf",
+			"uuid": "a5d8b25c-27b8-421d-a8b0-1681827909b9"
+		},
+		"version": "1.7.1",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/medo64.render-crlf-1.7.1",
+			"scheme": "file"
+		},
+		"relativeLocation": "medo64.render-crlf-1.7.1",
+		"metadata": {
+			"id": "a5d8b25c-27b8-421d-a8b0-1681827909b9",
+			"publisherId": "c6d3d238-ab9e-46ec-92d8-4a84a76e905d",
+			"publisherDisplayName": "Josip Medved",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1690569213942,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "redhat.vscode-yaml",
+			"uuid": "2061917f-f76a-458a-8da9-f162de22b97e"
+		},
+		"version": "1.14.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/redhat.vscode-yaml-1.14.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "redhat.vscode-yaml-1.14.0",
+		"metadata": {
+			"id": "2061917f-f76a-458a-8da9-f162de22b97e",
+			"publisherId": "eed56242-9699-4317-8bc7-e9f4b9bdd3ff",
+			"publisherDisplayName": "Red Hat",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1690569214987,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "platformio.platformio-ide",
+			"uuid": "6cf182b2-70cf-433e-97f2-45f414c9ad89"
+		},
+		"version": "3.3.1",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/platformio.platformio-ide-3.3.1-linux-x64",
+			"scheme": "file"
+		},
+		"relativeLocation": "platformio.platformio-ide-3.3.1-linux-x64",
+		"metadata": {
+			"id": "6cf182b2-70cf-433e-97f2-45f414c9ad89",
+			"publisherId": "18aa96e4-5b0a-4294-8fc8-8fdf1bd458c9",
+			"publisherDisplayName": "PlatformIO",
+			"targetPlatform": "linux-x64",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1690569216787,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "vscode-icons-team.vscode-icons",
+			"uuid": "9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a"
+		},
+		"version": "12.5.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/vscode-icons-team.vscode-icons-12.5.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "vscode-icons-team.vscode-icons-12.5.0",
+		"metadata": {
+			"id": "9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a",
+			"publisherId": "652ad61d-3a6a-48ca-ab1a-80dc8953b2b6",
+			"publisherDisplayName": "VSCode Icons Team",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1692203729382,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "pucelle.run-on-save",
+			"uuid": "f23b142c-d9c8-4bce-b791-57315e8cf4f3"
+		},
+		"version": "1.6.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/pucelle.run-on-save-1.6.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "pucelle.run-on-save-1.6.0",
+		"metadata": {
+			"id": "f23b142c-d9c8-4bce-b791-57315e8cf4f3",
+			"publisherId": "7650fded-a9d9-4383-a346-4136ebe47608",
+			"publisherDisplayName": "pucelle",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1692890786029,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "mads-hartmann.bash-ide-vscode",
+			"uuid": "b1b0f283-8246-4e90-832e-a6c409d378d1"
+		},
+		"version": "1.39.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/mads-hartmann.bash-ide-vscode-1.39.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "mads-hartmann.bash-ide-vscode-1.39.0",
+		"metadata": {
+			"id": "b1b0f283-8246-4e90-832e-a6c409d378d1",
+			"publisherId": "f40c9497-3e29-43d8-954d-e60d92bc26f0",
+			"publisherDisplayName": "Mads Hartmann",
+			"targetPlatform": "undefined",
+			"updated": false,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1693064187916,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "ms-vscode.cpptools",
+			"uuid": "690b692e-e8a9-493f-b802-8089d50ac1b2"
+		},
+		"version": "1.17.5",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/ms-vscode.cpptools-1.17.5-linux-x64",
+			"scheme": "file"
+		},
+		"relativeLocation": "ms-vscode.cpptools-1.17.5-linux-x64",
+		"metadata": {
+			"id": "690b692e-e8a9-493f-b802-8089d50ac1b2",
+			"publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+			"publisherDisplayName": "Microsoft",
+			"targetPlatform": "linux-x64",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1693265351873,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "bmalehorn.vscode-fish",
+			"uuid": "efa79b03-91c5-4c6a-9846-0a7b6f7af05e"
+		},
+		"version": "1.0.37",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/bmalehorn.vscode-fish-1.0.37",
+			"scheme": "file"
+		},
+		"relativeLocation": "bmalehorn.vscode-fish-1.0.37",
+		"metadata": {
+			"id": "efa79b03-91c5-4c6a-9846-0a7b6f7af05e",
+			"publisherId": "1215635c-400c-4cc8-96d3-f2d5da4774a4",
+			"publisherDisplayName": "Brian Malehorn",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1693421953415,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "notblank00.hexeditor",
+			"uuid": "9bb2042e-32ce-4ff5-9fca-5b769cb6ef86"
+		},
+		"version": "1.8.2",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/notblank00.hexeditor-1.8.2",
+			"scheme": "file"
+		},
+		"relativeLocation": "notblank00.hexeditor-1.8.2",
+		"metadata": {
+			"id": "9bb2042e-32ce-4ff5-9fca-5b769cb6ef86",
+			"publisherId": "841278f9-14ef-44bb-8981-5622629becda",
+			"publisherDisplayName": "Igor Gunin",
+			"targetPlatform": "undefined",
+			"updated": false,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1693486816400,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "hashicorp.terraform",
+			"uuid": "4a23294b-fd16-4c51-9759-da9936474cf8"
+		},
+		"version": "2.27.2",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/hashicorp.terraform-2.27.2-linux-x64",
+			"scheme": "file"
+		},
+		"relativeLocation": "hashicorp.terraform-2.27.2-linux-x64",
+		"metadata": {
+			"id": "4a23294b-fd16-4c51-9759-da9936474cf8",
+			"publisherId": "a8dd781d-e144-400a-943c-417165981be2",
+			"publisherDisplayName": "HashiCorp",
+			"targetPlatform": "linux-x64",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1694045029294,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "eamodio.gitlens",
+			"uuid": "4de763bd-505d-4978-9575-2b7696ecf94e"
+		},
+		"version": "14.3.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/eamodio.gitlens-14.3.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "eamodio.gitlens-14.3.0",
+		"metadata": {
+			"id": "4de763bd-505d-4978-9575-2b7696ecf94e",
+			"publisherId": "678d198b-9b2e-49d3-96ff-6d801c9575df",
+			"publisherDisplayName": "GitKraken",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1694123208422,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "ms-python.pylint",
+			"uuid": "8dc47276-5882-4c5f-903d-7eef7b9d1584"
+		},
+		"version": "2023.6.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/ms-python.pylint-2023.6.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "ms-python.pylint-2023.6.0",
+		"metadata": {
+			"id": "8dc47276-5882-4c5f-903d-7eef7b9d1584",
+			"publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
+			"publisherDisplayName": "Microsoft",
+			"targetPlatform": "undefined",
+			"updated": false,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1694127678470,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "streetsidesoftware.code-spell-checker",
+			"uuid": "f6dbd813-b0a0-42c1-90ea-10dde9d925a7"
+		},
+		"version": "3.0.1",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/streetsidesoftware.code-spell-checker-3.0.1",
+			"scheme": "file"
+		},
+		"relativeLocation": "streetsidesoftware.code-spell-checker-3.0.1",
+		"metadata": {
+			"id": "f6dbd813-b0a0-42c1-90ea-10dde9d925a7",
+			"publisherId": "67600ca7-88fb-4104-9f7e-dd51c00facf2",
+			"publisherDisplayName": "Street Side Software",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1694428987312,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "ms-python.python",
+			"uuid": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5"
+		},
+		"version": "2023.16.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/ms-python.python-2023.16.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "ms-python.python-2023.16.0",
+		"metadata": {
+			"id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
+			"publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
+			"publisherDisplayName": "Microsoft",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1694998797468,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "ms-azuretools.vscode-docker",
+			"uuid": "0479fc1c-3d67-49f9-b087-fb9069afe48f"
+		},
+		"version": "1.26.1",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/ms-azuretools.vscode-docker-1.26.1",
+			"scheme": "file"
+		},
+		"relativeLocation": "ms-azuretools.vscode-docker-1.26.1",
+		"metadata": {
+			"id": "0479fc1c-3d67-49f9-b087-fb9069afe48f",
+			"publisherId": "52b787f2-79a9-4f32-99b4-393afe3005d3",
+			"publisherDisplayName": "Microsoft",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1695134914278,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "seanwu.vscode-qt-for-python",
+			"uuid": "3e3d1520-4354-4dd2-8efc-92df8ed8c294"
+		},
+		"version": "7.6.0",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/seanwu.vscode-qt-for-python-7.6.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "seanwu.vscode-qt-for-python-7.6.0",
+		"metadata": {
+			"id": "3e3d1520-4354-4dd2-8efc-92df8ed8c294",
+			"publisherId": "5bb6c785-d35f-4dc5-ad20-ca804ca3b6bb",
+			"publisherDisplayName": "Shuang Wu",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1695207899358,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "redhat.vscode-xml",
+			"uuid": "6703768d-d42f-474e-9f6e-5f288d53f6e8"
+		},
+		"version": "0.26.1",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/redhat.vscode-xml-0.26.1-linux-x64",
+			"scheme": "file"
+		},
+		"relativeLocation": "redhat.vscode-xml-0.26.1-linux-x64",
+		"metadata": {
+			"id": "6703768d-d42f-474e-9f6e-5f288d53f6e8",
+			"publisherId": "eed56242-9699-4317-8bc7-e9f4b9bdd3ff",
+			"publisherDisplayName": "Red Hat",
+			"targetPlatform": "linux-x64",
+			"updated": false,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1695729269333,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "ms-pyright.pyright",
+			"uuid": "593fe6a5-513e-4cb3-abfb-5b9f5fe39802"
+		},
+		"version": "1.1.329",
+		"location": {
+			"$mid": 1,
+			"path": "/home/marcelotsvaz/.local/share/code-oss/ms-pyright.pyright-1.1.329",
+			"scheme": "file"
+		},
+		"relativeLocation": "ms-pyright.pyright-1.1.329",
+		"metadata": {
+			"id": "593fe6a5-513e-4cb3-abfb-5b9f5fe39802",
+			"publisherId": "26b7f243-cfb3-448b-8209-25b30d7e81c0",
+			"publisherDisplayName": "ms-pyright",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1695775479520,
+			"preRelease": false
+		}
+	},
+	{
+		"identifier": {
+			"id": "gitlab.gitlab-workflow",
+			"uuid": "01826860-d71c-4734-9cf8-dc1c07baa5f9"
+		},
+		"version": "3.80.0",
+		"location": {
+			"$mid": 1,
+			"fsPath": "/home/marcelotsvaz/.local/share/code-oss/gitlab.gitlab-workflow-3.80.0",
+			"external": "file:///home/marcelotsvaz/.local/share/code-oss/gitlab.gitlab-workflow-3.80.0",
+			"path": "/home/marcelotsvaz/.local/share/code-oss/gitlab.gitlab-workflow-3.80.0",
+			"scheme": "file"
+		},
+		"relativeLocation": "gitlab.gitlab-workflow-3.80.0",
+		"metadata": {
+			"id": "01826860-d71c-4734-9cf8-dc1c07baa5f9",
+			"publisherId": "11e0db43-01fa-42a2-aa75-d40835a05df7",
+			"publisherDisplayName": "GitLab",
+			"targetPlatform": "undefined",
+			"isApplicationScoped": false,
+			"updated": true,
+			"isPreReleaseVersion": false,
+			"installedTimestamp": 1696015529815,
+			"preRelease": false
+		}
+	}
+]

@@ -1,0 +1,25 @@
+[
+	// Copy and paste on the terminal without using shift.
+	{
+		"key": "ctrl+v",
+		"command": "workbench.action.terminal.paste",
+		"when": "terminalFocus",
+	},
+	{
+		"key": "ctrl+c",
+		"command": "workbench.action.terminal.copySelection",
+		"when": "terminalFocus && terminalTextSelected",
+	},
+	
+	// Terminal scroll.
+	{
+		"key": "pageup",
+		"command": "workbench.action.terminal.scrollUpPage",
+		"when": "terminalFocus",
+	},
+	{
+		"key": "pagedown",
+		"command": "workbench.action.terminal.scrollDownPage",
+		"when": "terminalFocus",
+	},
+]

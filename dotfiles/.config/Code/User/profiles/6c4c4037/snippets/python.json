@@ -1,0 +1,19 @@
+{
+	"Generic: ignore": {
+		"description": "Ignore Python errors.",
+		"prefix": "ignore.generic",
+		"body": [ "# ${1|type: ignore,pragma: no cover,pyright: ignore,pylint: disable = all|}" ],
+	},
+	
+	"Pyright: ignore": {
+		"description": "Ignore Pyright errors.",
+		"prefix": "ignore.pyright",
+		"body": [ "# pyright: ignore [${1|reportGeneralTypeIssues,reportUnknownMemberType|}]" ],
+	},
+	
+	"Pylint: ignore": {
+		"description": "Ignore Pylint errors on current scope, current line or next line.",
+		"prefix": "ignore.pylint",
+		"body": [ "# pylint: ${1|disable,disable-next|} = ${2|invalid-name,all|}" ],
+	},
+}
