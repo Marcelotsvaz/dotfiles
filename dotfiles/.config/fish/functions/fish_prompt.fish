@@ -24,6 +24,11 @@ function fish_prompt
 		set environmentPrompt [$environment]
 	end
 	
+	# Shell nesting level.
+	if test $SHLVL -gt 1
+		set shellLevel [⑂$SHLVL]
+	end
+	
 	# Prompt elements.
 	set user		$userColor$USER$resetColor
 	set host		$userColor$(prompt_hostname)$resetColor
@@ -32,7 +37,7 @@ function fish_prompt
 	set code		$(__fish_print_pipestatus '[' ']' '|' $resetColor $statusColor $lastPipestatus)
 	
 	# Print prompt.
-	printf "┌[$user@$host $pwd]$vcs$environmentPrompt$venv$code\n"
+	printf "┌[$user@$host $pwd]$vcs$environmentPrompt$venv$shellLevel$code\n"
 	printf "└> "
 end
 
