@@ -1,3 +1,3 @@
 Handle permissions
-Add
-	Konsole
+Konsole ctrl+f
+prompt_login
