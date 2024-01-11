@@ -26,7 +26,7 @@ set -x LESSHISTFILE $XDG_CACHE_HOME/lesshst
 # Cache.
 set -x NPM_CONFIG_CACHE $XDG_CACHE_HOME/npm
 set -x PLATFORMIO_CACHE_DIR $XDG_CACHE_HOME/platformio
-set -x PYTHONPYCACHEPREFIX $XDG_CACHE_HOME/python		# Python .pyc files.
+set -x PYTHONPYCACHEPREFIX $XDG_CACHE_HOME/python	# Python .pyc files.
 
 
 
@@ -36,6 +36,7 @@ set -x PYTHONPYCACHEPREFIX $XDG_CACHE_HOME/python		# Python .pyc files.
 set -x GTK_USE_PORTAL 1	# Make GTK applications use xdg-desktop-portal for native KDE dialogs.
 set -x MOZ_ENABLE_WAYLAND 1
 set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.socket	# SSH Key Agent.
+set -x TF_PLUGIN_CACHE_DIR $XDG_CACHE_HOME/terraform/plugin-cache
 
 # Path.
 fish_add_path --path $GOPATH/bin
