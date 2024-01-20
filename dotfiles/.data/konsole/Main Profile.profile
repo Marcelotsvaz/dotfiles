@@ -2,7 +2,7 @@
 AntiAliasFonts=true
 BoldIntense=true
 ColorScheme=Breeze
-Font=Cascadia Code,10,-1,5,29,0,0,0,0,0,SemiLight
+Font=CaskaydiaCove Nerd Font,10,-1,5,29,0,0,0,0,0,SemiLight
 LineSpacing=0
 UseFontLineChararacters=false
 WordMode=true
